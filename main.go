@@ -49,12 +49,12 @@ func openSource() {
 			sx, sy := robotgo.GetScreenSize()
 			fmt.Println("get screen size: ", sx, sy)
 
-			robotgo.MoveSmooth(10, 10)
-			robotgo.ScrollSmooth(-50, 6)
+			robotgo.MoveSmooth(10, 20)
+			robotgo.ScrollSmooth(-500, 6)
 
+			// error: X Error of failed request:  BadMatch (invalid parameter attributes)
 			//bit := robotgo.CaptureScreen(0, 0, 100, 100)
 			//defer robotgo.FreeBitmap(bit)
-
 			//img := robotgo.ToImage(bit)
 			//robotgo.SavePng(img, "test_1.png")
 
