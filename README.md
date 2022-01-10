@@ -11,10 +11,10 @@
 
 ### Проблемы
 Возможно проблема в том, что Ubuntu запущена на ВМ
-1. Ошибка при запуске
+1. Ошибка при запуске. 
 Ошибка:
 load_input_helper [1883]: XkbGetKeyboard failed to locate a valid keyboard!
-2. Не получается снять изображение с экрана
+2. Не получается снять изображение с экрана. 
 Ошибка:
 X Error of failed request:  BadMatch (invalid parameter attributes)
   Major opcode of failed request:  73 (X_GetImage)
